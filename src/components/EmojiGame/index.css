@@ -1,0 +1,22 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom right, #9796f0, #fbc7d4);
+  min-height: 100vh;
+}
+.emoji-body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.emojis-list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top:100px;
+  margin-bottom:100px;
+}
